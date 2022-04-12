@@ -1,0 +1,82 @@
+.site-logo {
+  height: 26px;
+  padding: 1rem;
+  width: 160px;
+}
+
+.commentsContainer {
+  width: auto;
+  margin: 0 auto;
+  padding: 24px;
+}
+.likes {
+  float: right;
+  font-weight: 600;
+}
+.comment {
+  border-bottom: 1px solid gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.userNameLikes {
+  padding-top: 8px;
+}
+
+.userName {
+  font-size: 20px;
+  font-weight: 600;
+}
+.commentCount {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.border {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.likesMargin {
+  margin-right: 24px;
+  padding: 8px;
+}
+.likesBorder {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .site-logo {
+    height: 31px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 190px;
+  }
+  .commentsContainer {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .likes {
+    float: right;
+  }
+  .comment {
+    border-bottom: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .userNameLikes {
+    padding-top: 8px;
+  }
+
+  .border {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
